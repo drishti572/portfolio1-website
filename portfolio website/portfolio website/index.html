@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Drishti Juyal | Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- INTRO -->
+<div id="intro">
+  <h1 id="introLogo">:)PORTFOLIO</h1>
+</div>
+
+<!-- NAV -->
+<nav class="navbar">
+  <div class="nav-container">
+    <h2 class="logo" id="navLogo">:)PORTFOLIO</h2>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <canvas id="bg3d"></canvas>
+
+  <div class="hero-card" data-aos="fade-up">
+    <img src="https://cdn.pixabay.com/photo/2019/08/11/18/59/icon-4399701_1280.png" class="profile">
+    <h1>Drishti Juyal</h1>
+    <p class="subtitle"><span id="typing"></span></p>
+    <a href="resume.pdf" target="_blank" class="btn-primary">View Resume</a>
+  </div>
+
+  <div class="scroll-down"></div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about" data-aos="fade-up">
+  <h2>About Me</h2>
+  <p>
+    I’m a passionate BCA student and web developer who loves creating
+    elegant, user-friendly websites and solving real-world problems.
+  </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="skills">
+  <h2 data-aos="fade-up">My Skills</h2>
+
+  <div class="skills-grid" data-aos="fade-up">
+    <div class="skill">HTML</div>
+    <div class="skill">CSS</div>
+    <div class="skill">JavaScript</div>
+    <div class="skill">React (Basic)</div>
+    <div class="skill">MS Excel</div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+
+<div class="project-grid">
+
+  <div class="project-card" data-aos="fade-up">
+    <h3>Weather Website</h3>
+    <p>Weather app using API that shows real-time temperature, humidity and city search feature.</p>
+
+    <div class="project-tags">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+    </div>
+
+    <div class="project-links">
+      <a href="projects/weather-app/index.html" target="_blank">Live</a>
+      <a href="https://github.com/your-username" target="_blank">GitHub</a>
+    </div>
+  </div>
+
+  <div class="project-card" data-aos="fade-up">
+    <h3>Blog Website</h3>
+    <p>Personal blogging platform with modern UI design.</p>
+
+    <div class="project-tags">
+      <span>HTML</span>
+      <span>CSS</span>
+    </div>
+
+    <div class="project-links">
+      <a href="#">Live</a>
+      <a href="#">GitHub</a>
+    </div>
+  </div>
+
+</div>
+
+<!-- EDUCATION -->
+<section id="education" class="education">
+  <h2 data-aos="fade-up">Education</h2>
+
+  <div class="edu-card" data-aos="fade-up">
+    <h3>Bachelor of Computer Applications (BCA)</h3>
+    <p>Currently Pursuing</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2 data-aos="fade-up">Contact Me</h2>
+
+  <form id="contactForm" data-aos="fade-up">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="email" id="email" placeholder="Your Email" required>
+    <textarea id="message" placeholder="Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+
+  <p id="formMsg"></p>
+
+  <div class="socials">
+   <a href="https://linkedin.com/in/your-profile" target="_blank">
+  <i class="fab fa-linkedin"></i>
+</a>
+    <a href="https://github.com/your-username" target="_blank">
+  <i class="fab fa-github"></i>
+</a>
+  </div>
+</section>
+
+<footer class="footer">
+  © 2026 Drishti Juyal • Portfolio
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
